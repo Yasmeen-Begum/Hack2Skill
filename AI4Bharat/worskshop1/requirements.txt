@@ -1,1 +1,6 @@
-pip install streamlit boto3 chromadb pdfplumber sentence-transformers pypdf
+streamlit 
+boto3 
+chromadb 
+pdfplumber 
+sentence-transformers 
+pypdf

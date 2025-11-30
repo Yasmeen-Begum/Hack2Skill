@@ -1,0 +1,15 @@
+# Core dependencies
+gradio>=4.0.0
+langchain>=0.1.0
+langchain-openai>=0.0.5
+crewai>=0.1.0
+chromadb>=0.4.0
+reportlab>=4.0.0
+python-dotenv>=1.0.0
+
+# Testing dependencies
+pytest>=7.4.0
+hypothesis>=6.92.0
+
+# Utilities
+Pillow>=10.0.0

@@ -1,0 +1,3 @@
+[console_scripts]
+lazy-auto = lazy_automation.cli.main:main
+lazy-auto-web = lazy_automation.web_interface:main

@@ -4,8 +4,6 @@
 
 A comprehensive automation toolkit featuring:
 - 📁 **File Automation** - Rename, organize, and summarize files
-- 📧 **Email Summarization** - Analyze emails from any provider
-- 🤖 **AI-Powered Analysis** - Multi-agent AI with LangChain, CrewAI, RAG, and Weaviate
 - 🌐 **Dual Interfaces** - CLI for power users, Web UI for everyone
 
 Built with Kiro AI using spec-driven development.
@@ -32,7 +30,6 @@ tests/
 ├── test_file_operations.py
 ├── test_rename_task.py
 ├── test_organize_task.py
-├── test_summarize_task.py
 └── test_integration.py
 ```
 
@@ -81,38 +78,11 @@ python -m lazy_automation.web_interface
 The web interface provides:
 - 📝 **Rename Tab**: Batch rename files with pattern preview
 - 📁 **Organize Tab**: Organize files by type or date
-- 📊 **Summarize Tab**: Generate and download file summaries
 - 🔍 **Preview Mode**: See changes before executing
 - 💾 **Download Reports**: Save summary reports directly from the browser
 
 For detailed web interface documentation, see [Web Interface Guide](docs/WEB_INTERFACE_GUIDE.md).
 
-### Email Summarizer
-
-Automate the boring task of reading through hundreds of emails:
-
-```bash
-# Summarize last 10 emails
-python email_summarizer.py --email your@gmail.com
-
-# Only unread emails
-python email_summarizer.py --email your@gmail.com --unread-only
-
-# Save summary to file
-python email_summarizer.py --email your@gmail.com --output email_summary.txt
-
-# Check specific folder
-python email_summarizer.py --email your@gmail.com --folder Sent
-```
-
-**Features:**
-- 📧 Connect to Gmail, Outlook, Yahoo, iCloud, and more
-- 📊 Get statistics on senders, sizes, and attachments
-- 🔍 Filter by folder, unread status, or count
-- 💾 Export summaries to text files
-- 🔐 Secure password handling
-
-For detailed email summarizer documentation, see [Email Summarizer Guide](docs/EMAIL_SUMMARIZER_GUIDE.md).
 
 ### Command-Line Interface (File Operations)
 
@@ -143,16 +113,6 @@ lazy-auto organize /path/to/dir --rule-type type --dry-run
 lazy-auto organize /path/to/dir --rule-type date --conflict-strategy rename
 ```
 
-### Summarize Files
-
-Generate summaries of text files:
-```bash
-# Display summary to console
-lazy-auto summarize /path/to/dir --dry-run
-
-# Save summary to file
-lazy-auto summarize /path/to/dir --output summary.txt
-```
 
 ### Common Options
 
@@ -192,8 +152,6 @@ This project uses:
 
 - **[PROJECT_SUMMARY.md](PROJECT_SUMMARY.md)** - Complete project overview
 - **[Web Interface Guide](docs/WEB_INTERFACE_GUIDE.md)** - Gradio web UI documentation
-- **[Email Summarizer Guide](docs/EMAIL_SUMMARIZER_GUIDE.md)** - Basic email summarization
-- **[AI Email Analyzer Guide](docs/AI_EMAIL_ANALYZER_GUIDE.md)** - Advanced AI email analysis
 - **[Development Blog](blog/building-lazy-automation-tool-with-kiro.md)** - How it was built
 
 ## Quick Links
@@ -202,3 +160,4 @@ This project uses:
 - **Tests**: `pytest` (115 tests passing)
 - **Specs**: `.kiro/specs/lazy-automation-tool/`
 - **Examples**: `examples/` directory
+

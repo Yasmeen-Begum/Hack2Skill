@@ -59,9 +59,8 @@ python -m lazy_automation.cli.main --help
 ## Usage
 
 The tool provides three main capabilities:
-1. **File Automation** (rename, organize, summarize files)
-2. **Email Summarization** (summarize emails from your inbox)
-3. **Dual Interfaces** (CLI and web interface)
+1. **File Automation** (rename, organize)
+
 
 ### Web Interface
 
@@ -160,4 +159,5 @@ This project uses:
 - **Tests**: `pytest` (115 tests passing)
 - **Specs**: `.kiro/specs/lazy-automation-tool/`
 - **Examples**: `examples/` directory
+
 

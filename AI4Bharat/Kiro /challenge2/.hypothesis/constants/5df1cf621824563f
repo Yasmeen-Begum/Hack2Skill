@@ -1,0 +1,4 @@
+# file: C:\Users\DELL\Music\lazy automation\lazy_automation\tasks\organize.py
+# hypothesis_version: 6.148.3
+
+['%Y-%m', '.7z', '.aac', '.avi', '.bmp', '.bz2', '.c', '.cpp', '.cs', '.csv', '.doc', '.docx', '.flac', '.flv', '.gif', '.gz', '.h', '.java', '.jpeg', '.jpg', '.js', '.m4a', '.mkv', '.mov', '.mp3', '.mp4', '.odp', '.ods', '.odt', '.ogg', '.pdf', '.png', '.ppt', '.pptx', '.py', '.rar', '.rb', '.rtf', '.svg', '.tar', '.txt', '.wav', '.webp', '.wmv', '.xls', '.xlsx', '.zip', 'archive', 'archives', 'audio', 'category', 'code', 'conflict_strategy', 'date', 'date_folder', 'date_ranges', 'documents', 'error', 'file_date', 'images', 'move', 'old', 'operation', 'other', 'presentations', 'recent', 'rule_type', 'skip', 'spreadsheets', 'type', 'videos']

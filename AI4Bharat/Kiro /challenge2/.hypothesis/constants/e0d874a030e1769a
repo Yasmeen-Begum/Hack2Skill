@@ -1,0 +1,4 @@
+# file: C:\Users\DELL\Music\lazy automation\lazy_automation\cli\main.py
+# hypothesis_version: 6.148.3
+
+[130, '+', '--conflict-strategy', '--dry-run', '--extensions', '--no-confirm', '--output', '--pattern', '--rule-type', '--verbose', 'INFO', '__main__', 'conflict_strategy', 'date', 'directory', 'extensions', 'lazy-auto', 'organize', 'organize options', 'output_file', 'overwrite', 'pattern', 'rename', 'rename options', 'rule_type', 'skip', 'store_true', 'summarize', 'summarize options', 'task', 'type', 'y', 'yes']

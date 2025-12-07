@@ -1,0 +1,4 @@
+# file: C:\Users\DELL\Music\lazy automation\lazy_automation\file_operations\__init__.py
+# hypothesis_version: 6.148.3
+
+['accessed', 'created', 'modified', 'overwrite', 'permissions', 'rename', 'size', 'skip']

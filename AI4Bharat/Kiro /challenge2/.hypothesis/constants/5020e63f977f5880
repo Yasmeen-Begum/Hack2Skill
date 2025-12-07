@@ -1,0 +1,4 @@
+# file: C:\Users\DELL\Music\lazy automation\lazy_automation\cli\__init__.py
+# hypothesis_version: 6.148.3
+
+['build_task_options', 'confirm_execution', 'execute_task', 'get_task_module', 'main', 'parse_arguments', 'validate_arguments']

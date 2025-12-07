@@ -1,0 +1,37 @@
+# AI Email Analyzer Requirements
+# Advanced email analysis with LangChain, CrewAI, RAG, Weaviate, and Gradio
+
+# Core dependencies (already installed)
+gradio>=4.0.0
+pytest>=7.4.0
+hypothesis>=6.82.0
+
+# LangChain ecosystem
+langchain>=0.1.0
+langchain-openai>=0.0.2
+langchain-community>=0.0.10
+openai>=1.0.0
+
+# CrewAI for multi-agent systems
+crewai>=0.1.0
+crewai-tools>=0.1.0
+
+# Weaviate vector database
+weaviate-client>=3.25.0
+
+# Additional AI/ML libraries
+tiktoken>=0.5.0  # Token counting for OpenAI
+faiss-cpu>=1.7.4  # Alternative vector store
+chromadb>=0.4.0  # Alternative vector store
+
+# Text processing
+python-dotenv>=1.0.0  # Environment variable management
+pydantic>=2.0.0  # Data validation
+
+# MCP (Model Context Protocol) - if available
+# mcp-client>=0.1.0  # Uncomment when available
+
+# Optional: For enhanced functionality
+anthropic>=0.7.0  # Claude API support
+cohere>=4.0.0  # Cohere embeddings
+sentence-transformers>=2.2.0  # Local embeddings

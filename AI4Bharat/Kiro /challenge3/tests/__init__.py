@@ -1,0 +1,1 @@
+"""Test suite for weather stock dashboard."""

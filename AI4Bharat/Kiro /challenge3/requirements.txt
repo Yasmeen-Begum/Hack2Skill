@@ -1,0 +1,52 @@
+# Core Framework Dependencies
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+pydantic==2.5.0
+pydantic-settings==2.1.0
+
+# AI and ML Dependencies
+langchain==0.1.0
+langchain-community==0.0.10
+langchain-openai==0.0.2
+crewai==0.28.8
+openai==1.6.1
+
+# Vector Database
+chromadb==0.4.18
+sentence-transformers==2.2.2
+
+# Time Series Analysis
+statsmodels==0.14.1
+arch==6.2.0
+numpy==1.24.3
+pandas==2.1.4
+scipy==1.11.4
+
+# Web Interface
+gradio==4.8.0
+plotly==5.17.0
+dash==2.14.2
+
+# Data Collection and APIs
+requests==2.31.0
+aiohttp==3.9.1
+apscheduler==3.10.4
+
+# Caching and Storage
+redis==5.0.1
+sqlalchemy==2.0.23
+
+# Development and Testing
+pytest==7.4.3
+pytest-asyncio==0.21.1
+hypothesis==6.92.1
+black==23.11.0
+flake8==6.1.0
+mypy==1.7.1
+
+# Environment and Configuration
+python-dotenv==1.0.0
+pyyaml==6.0.1
+
+# Logging and Monitoring
+structlog==23.2.0

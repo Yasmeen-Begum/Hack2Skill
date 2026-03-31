@@ -298,7 +298,7 @@ gcloud projects add-iam-policy-binding $PROJECT_ID \
 ```
 uvx --from google-adk==1.14.0 \
 adk deploy cloud_run \
-  --project=qwiklabs-gcp-02-f1d566171bf1 \
+  --project=clean-machine-491510-p0\
   --region=us-east4 \
   --service_name=hotel-food-summarizer \
   --with_ui \

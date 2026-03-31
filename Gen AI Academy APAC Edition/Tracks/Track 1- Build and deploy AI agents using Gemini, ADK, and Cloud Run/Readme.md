@@ -1,14 +1,14 @@
 
 
 
-#Project setup
+# Project setup
 
 -Sign-in to the Google Cloud Console
 
 -Sign-in to the Google Cloud Console using a personal Google account.
 
 
---Enable Billing
+# Enable Billing
 
 -Set up a personal billing account
 
@@ -17,7 +17,7 @@
 -To set up a personal billing account, go here to enable billing in the Cloud Console.
 
 
-#Create a project
+# Create a project
 
 <img width="449" height="62" alt="Image" src="https://github.com/user-attachments/assets/3cd8e8dc-a843-46e7-8b0f-2782024e9719" />
 
@@ -35,8 +35,7 @@
 
 
 
-
-#Open Cloud Shell Editor
+# Open Cloud Shell Editor
 
 -Click this link to navigate directly to Cloud Shell Editor
 
@@ -44,6 +43,7 @@
 
 -If the terminal doesn't appear at the bottom of the screen, open it:
 
--Click View
-Click Terminal
--
+- Click View
+  
+- Click Terminal
+

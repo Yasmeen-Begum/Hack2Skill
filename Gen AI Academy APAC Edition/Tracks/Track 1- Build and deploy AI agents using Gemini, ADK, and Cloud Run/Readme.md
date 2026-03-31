@@ -56,9 +56,9 @@
 # Set your project
 
 -In the terminal, set your project with this command:
-----------------------------------------
+```
 gcloud config set project [PROJECT_ID]
----------------------------------------
+```
 -You should see this message:
 
 Updated property [core/project].
@@ -67,12 +67,12 @@ Updated property [core/project].
  
 To use Cloud Run, Artifact Registry, Cloud Build, Vertex AI, and Compute Engine, you need to enable their respective APIs in your Google Cloud project.
 
- -------------------------------------
+```
  gcloud services enable \
   run.googleapis.com \
   artifactregistry.googleapis.com \
   cloudbuild.googleapis.com \
   aiplatform.googleapis.com \
   compute.googleapis.com
-  ------------------------------------
+```
 

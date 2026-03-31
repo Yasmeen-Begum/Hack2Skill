@@ -27,6 +27,8 @@
 
 -Enter project name 
 
+-Choose Billing Account
+
 -click on create
 
 -copy project ID
@@ -41,9 +43,36 @@
 
 -If prompted to authorize at any point today, click Authorize to continue.Click to authorize Cloud Shell
 
+<img width="235" height="125" alt="Image" src="https://github.com/user-attachments/assets/27545d38-51aa-4efe-a8d9-5ab2f66d9d47" />
+
 -If the terminal doesn't appear at the bottom of the screen, open it:
 
 - Click View
   
 - Click Terminal
+
+<img width="366" height="231" alt="Image" src="https://github.com/user-attachments/assets/44f2b515-9112-41a9-8725-a211bfbb5321" />
+
+# Set your project
+
+-In the terminal, set your project with this command:
+----------------------------------------
+gcloud config set project [PROJECT_ID]
+---------------------------------------
+-You should see this message:
+
+Updated property [core/project].
+
+ # Enable APIs
+ 
+To use Cloud Run, Artifact Registry, Cloud Build, Vertex AI, and Compute Engine, you need to enable their respective APIs in your Google Cloud project.
+
+ -------------------------------------
+ gcloud services enable \
+  run.googleapis.com \
+  artifactregistry.googleapis.com \
+  cloudbuild.googleapis.com \
+  aiplatform.googleapis.com \
+  compute.googleapis.com
+  ------------------------------------
 

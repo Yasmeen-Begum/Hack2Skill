@@ -32,7 +32,7 @@ Operation "operations/acat.p2-[GUID]" finished successfully.
 
 In the terminal, create the project directory and the necessary subdirectories:
 ```
-cd && mkdir zoo_guide_agent && cd zoo_guide_agent
+mkdir wellness_agent && cd wellness_agent
 ```
 In the terminal, run the following command to open the zoo_guide_agent directory in the Cloud Shell Editor explorer:
 ```

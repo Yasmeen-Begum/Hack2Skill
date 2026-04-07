@@ -1,5 +1,5 @@
 
-# Set your project
+## Set your project
 
 In the terminal, set your project with this command:
 ```
@@ -9,7 +9,7 @@ You should see this message:
 
 Updated property [core/project]
 
-# Enable APIs
+## Enable APIs
 
 To use Cloud Run, Artifact Registry, Cloud Build, Vertex AI, and Compute Engine, you need to enable their respective APIs in your Google Cloud project.
 
@@ -26,7 +26,7 @@ When this finishes running, you should see an output like the following:
 
 Operation "operations/acat.p2-[GUID]" finished successfully.
 
-# Prepare your development environment
+## Prepare your development environment
 
 1.Create the directory
 
@@ -41,7 +41,7 @@ cloudshell open-workspace ~/zoo_guide_agent
 The explorer panel on the left will refresh. You should now see the directory you created. 
 
 
-## Install requirements
+### Install requirements
 
 1.Run the following command in the terminal to create the requirements.txt file.
 ```

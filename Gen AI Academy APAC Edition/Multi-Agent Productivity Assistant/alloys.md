@@ -1,6 +1,22 @@
 
 Step 1: Create AlloyDB Cluster
-Step 3: Create Database
+```
+gcloud alloydb clusters create wellness-cluster \
+  --region=us-central1 \
+  --network=default \
+  --project=$PROJECT_ID
+```
+Step 2: Create AlloyDB Instance
+```
+gcloud alloydb instances create wellness-instance \
+  --cluster=wellness-cluster \
+  --region=us-central1 \
+  --instance-type=PRIMARY \
+  --cpu-count=2 \
+  --project=$PROJECT_ID
+```
+
+Step 3: Create Database 
 Connect to the instance:
 ```
 CREATE DATABASE wellness_db;

@@ -89,7 +89,7 @@ mkdir wellness_agent && cd wellness_agent
 ```
 In the terminal, run the following command to open the zoo_guide_agent directory in the Cloud Shell Editor explorer:
 ```
-cloudshell open-workspace ~/zoo_guide_agent
+cloudshell open-workspace ~/wellness_agent
 ```
 The explorer panel on the left will refresh. You should now see the directory you created. 
 
@@ -104,7 +104,11 @@ Add the following into the newly created requirements.txt file
 ```
 google-adk==1.14.0
 langchain-community==0.3.27
-wikipedia==1.4.0
+fastapi
+uvicorn
+sqlalchemy
+psycopg2-binary
+
 ```
 In the terminal, create and activate a virtual environment using uv. This ensures your project dependencies don't conflict with the system Python.
 ```
@@ -186,17 +190,16 @@ With your local code ready and your Google Cloud project prepared, it's time to 
 
 Run the following command in the terminal to deploy your agent.
 ```
-# Run the deployment command
 uvx --from google-adk==1.14.0 \
 adk deploy cloud_run \
-      --project=$PROJECT_ID \
-      --region=europe-west1 \
-      --service_name=zoo-tour-guide \
-      --with_ui \
-      . \
-      -- \
-      --labels=dev-tutorial=codelab-adk \
-      --service-account=$SERVICE_ACCOUNT
+  --project=$PROJECT_ID \
+  --region=us-central1 \
+  --service_name=wellness-agent \
+  --with_ui \
+  . \
+  -- \
+  --labels=dev-tutorial=wellness-agent \
+  --service-account=$SERVICE_ACCOUNT
 ```
 
 Deploying from source requires an Artifact Registry Docker repository to store built containers. A repository named [cloud-run-source-deploy] in region 

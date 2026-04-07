@@ -80,3 +80,23 @@ SERVICE_ACCOUNT=${SA_NAME}@${PROJECT_ID}.iam.gserviceaccount.com
 MODEL="gemini-2.5-flash"
 EOF
 ```
+## Create Agent Workflow
+### Create __init__.py file
+
+Create the init.py file by running the following in the terminal:
+```
+cloudshell edit __init__.py
+```
+This file tells Python that the zoo_guide_agent directory is a package.
+
+Add the following code to the new __init__.py file:
+```
+from . import agent
+```
+
+### Create the agent.py file
+
+Create the main agent.py file by pasting the following command into the terminal.
+```
+cloudshell edit agent.py
+```

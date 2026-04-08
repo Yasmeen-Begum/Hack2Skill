@@ -1,0 +1,11 @@
+PROJECT_ID=able-bazaar-492510-c8
+PROJECT_NUMBER=753573680490
+SA_NAME=lab2-cr-service
+SERVICE_ACCOUNT=lab2-cr-service@able-bazaar-492510-c8.iam.gserviceaccount.com
+##MODEL="gemini-2.5-flash"
+#DATABASE_URL="postgresql+psycopg2://postgres:StrongPassword@123@10.30.0.2:5432/wellness_db"
+
+# Updated DATABASE_URL to use the public IP
+#DATABASE_URL=postgresql+psycopg2://postgres:MyStrongPass123@34.123.45.67:5432/wellness_db
+MODEL="gemini-1.5-pro"
+DATABASE_URL=postgresql+psycopg2://postgres:StrongPassword%40123@34.123.45.67:5432/wellness_db

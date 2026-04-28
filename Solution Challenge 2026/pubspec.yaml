@@ -1,0 +1,44 @@
+name: crisis_sync
+description: "CrisisSync — Rapid Crisis Response & Coordination Platform for Hospitality"
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # ── Firebase ──────────────────────────────────────────────────
+  firebase_core: ^4.7.0
+  cloud_firestore: ^6.3.0
+  firebase_auth: ^6.4.0
+  firebase_messaging: ^16.2.0
+
+  # ── State Management ──────────────────────────────────────────
+  provider: ^6.1.2
+
+  # ── UI & Animations ───────────────────────────────────────────
+  google_fonts: ^8.1.0
+  fl_chart: ^1.2.0
+  flutter_animate: ^4.5.0
+
+  # ── HuggingFace Gemma 4 ───────────────────────────────────────
+  http: ^1.2.2
+
+  # ── Utilities ─────────────────────────────────────────────────
+  intl: ^0.20.2
+  uuid: ^4.4.0
+  shared_preferences: ^2.3.0
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
